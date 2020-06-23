@@ -8,6 +8,7 @@
 	<body>
 		<?php include "Header/header.php"; ?>
 		<?php include "Menu/menu.php"; ?>
+		<?php $_POST['path'] = "Chats/Femelle/"; ?>
 		<div id="page">
 			<?php include "Add/btn_add.php"; ?>
 			<section>
@@ -19,6 +20,7 @@
 					</p>
 				</article>
 			</section>
+			<?php include "Open/openfiles.php"; ?>
 		</div>
 		<?php include "footer.php"; ?>
 	</body>
