@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>		<!--index-->
 <html lang="fr">
 	<head>
 		<title> La-Chacropole-Accueil </title>
