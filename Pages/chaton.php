@@ -9,9 +9,7 @@
 		<?php include "Header/header.php"; ?>
 		<?php include "Menu/menu.php"; ?>
 		<div id="page">
-		<form method="post" action="add.php">		<!--allow farmer to add a cat on the website-->
-		<p>
-		<input type="submit" value="ajouter" />
+			<?php include "Add/btn_add.php"; ?>
 			<section>
 				<article>
 					<h3>Nos Chatons</h3>
