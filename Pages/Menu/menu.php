@@ -1,6 +1,6 @@
 <!--menu interface-->
 
-<link href="menu.css" rel="stylesheet">
+<link href="CSS/menu.css" rel="stylesheet">
 
 <nav>
 	<ul>

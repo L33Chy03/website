@@ -3,13 +3,10 @@
 	<head>
 		<title> La-Chacropole-Accueil </title>
 		<meta charset="utf-8">
-		<link href="style.css" rel="stylesheet">
+		<link href="CSS/style.css" rel="stylesheet">
 	</head>
 	<body>
-		<header>
-			<h1>CHATTERIE DE LA CHACROPOLE</h1>
-			<p>L'Acropole du Chat et du Maine Coon inscrit au Livre des Origines Félines</p>
-		</header>
+		<?php include "Header/header.php"; ?>
 		<?php include "Menu/menu.php"; ?>
 		<div id="page">
 			<section>
