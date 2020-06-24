@@ -14,6 +14,7 @@ $_SESSION['path'] = "Chats/Male/";
 		<?php include "Menu/menu.php"; ?>
 		<div id="page">
 			<?php include "Add/btn_add.php"; ?>
+			<?php include "Del/btn_del.php"; ?>
 			<section>
 				<article>
 					<h3>Nos Mâles</h3>

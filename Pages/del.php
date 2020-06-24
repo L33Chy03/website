@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<title> La-Chacropole-ajout</title>
+		<title> La-Chacropole-suppression </title>
 		<meta charset="utf-8">
 		<link href="CSS/style.css" rel="stylesheet">
 	</head>
@@ -12,18 +12,10 @@
 			<section>
 				<article>
 					<h3>Ajouter un chat:</h3>
-					<form method="post" action="succes.php">
+					<form method="post" action="success.php">
 					<p>
 					nom :
 					<input type="text" name="nom" /><br>
-					masse :
-					<input type="text" name="masse" /><br>
-					taille :
-					<input type="text" name="taille" /><br>
-					tips :
-					<input type="text" name="tips" /><br>
-					image :
-					<input type="text" name="imagepath" /><br>
 					<input type="submit" value="Valider" />
 					</p>
 				</form>
