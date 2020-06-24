@@ -11,7 +11,7 @@
 		<div id="page">
 			<section>
 				<article>
-					<h3>Chat Ajouté</h3>
+				<h3>Chat ajouté</h3>
 					<?php include "Add/add_file.php";?>
 				</article>
 			</section>

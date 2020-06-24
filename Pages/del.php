@@ -1,3 +1,9 @@
+<?php
+session_start();
+$_SESSION['add'] = 0;
+$_SESSION['del'] = 1;
+$_SESSION['modif'] = 0;
+?>
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
@@ -11,7 +17,7 @@
 		<div id="page">
 			<section>
 				<article>
-					<h3>Ajouter un chat:</h3>
+					<h3>Supprimer un chat:</h3>
 					<form method="post" action="success.php">
 					<p>
 					nom :
