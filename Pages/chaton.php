@@ -13,9 +13,7 @@ $_SESSION['path'] = "Chats/Chatons/";
 		<?php include "Header/header.php"; ?>
 		<?php include "Menu/menu.php"; ?>
 		<div id="page">
-			<?php include "Add/btn_add.php"; ?>
-			<?php include "Del/btn_del.php"; ?>
-			<?php include "Mod/btn_mod.php"; ?>
+			<?php include "Button/button.php"; ?>
 			<section>
 				<article>
 					<h3>Nos Chatons</h3>
