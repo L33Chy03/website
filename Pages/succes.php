@@ -1,8 +1,4 @@
-<?php
-session_start();
-$_SESSION['path'] = "Chats/Male/";
-?>
-<!DOCTYPE html>		<!--our males Maine Coons-->
+<!DOCTYPE html>
 <html lang="fr">
 	<head>
 		<title> La-Chacropole-male </title>
@@ -13,18 +9,13 @@ $_SESSION['path'] = "Chats/Male/";
 		<?php include "Header/header.php"; ?>
 		<?php include "Menu/menu.php"; ?>
 		<div id="page">
-			<?php include "Add/btn_add.php"; ?>
 			<section>
 				<article>
-					<h3>Nos Mâles</h3>
-					<p>
-					<br>
-					Ici vous pouvez voir tous nos mâles :
-					</p>
+					<h3>Chat Ajouté</h3>
+					<?php include "Add/add_file.php";?>
 				</article>
 			</section>
-			<?php include "Open/openfiles.php"; ?>
 		</div>
-		<?php include "Footer/footer.php"; ?>
+		<?php include "footer.php"; ?>
 	</body>
 </html>

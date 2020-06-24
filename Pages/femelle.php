@@ -1,3 +1,7 @@
+<?php
+session_start();
+$_SESSION['path'] = "Chats/Femelle/";
+?>
 <!DOCTYPE html>		<!--our females Maine Coons-->
 <html lang="fr">
 	<head>
@@ -8,7 +12,6 @@
 	<body>
 		<?php include "Header/header.php"; ?>
 		<?php include "Menu/menu.php"; ?>
-		<?php $_POST['path'] = "Chats/Femelle/"; ?>
 		<div id="page">
 			<?php include "Add/btn_add.php"; ?>
 			<section>
@@ -22,6 +25,6 @@
 			</section>
 			<?php include "Open/openfiles.php"; ?>
 		</div>
-		<?php include "footer.php"; ?>
+		<?php include "Footer/footer.php"; ?>
 	</body>
 </html>

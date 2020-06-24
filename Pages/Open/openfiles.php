@@ -1,5 +1,5 @@
 <?php
-			$dirname = $_POST['path'];
+			$dirname = $_SESSION['path'];
 			$dir = opendir($dirname);
  
 		while($file = readdir($dir)) {
