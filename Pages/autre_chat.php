@@ -15,6 +15,7 @@ $_SESSION['path'] = "Chats/Autre/";
 		<div id="page">
 			<?php include "Add/btn_add.php"; ?>
 			<?php include "Del/btn_del.php"; ?>
+			<?php include "Mod/btn_mod.php"; ?>
 			<section>
 				<article>
 					<h3>Nos Autres Chats</h3>
