@@ -1,9 +1,3 @@
-<?php
-session_start();
-$_SESSION['add'] = 1;
-$_SESSION['del'] = 0;
-$_SESSION['modif'] = 0;
-?>
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
