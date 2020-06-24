@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>		<!--page of delete succes-->
 <html lang="fr">
 	<head>
 		<title> La-Chacropole-succe </title>
