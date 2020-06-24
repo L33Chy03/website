@@ -5,7 +5,7 @@ $_SESSION['path'] = "Chats/Chatons/";
 <!DOCTYPE html>		<!--our Maine Coons kittens-->
 <html lang="fr">
 	<head>
-		<title> La-Chacropole-femelle </title>
+		<title> La-Chacropole-chaton </title>
 		<meta charset="utf-8">
 		<link href="CSS/style.css" rel="stylesheet">
 	</head>
