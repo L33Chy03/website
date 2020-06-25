@@ -16,9 +16,10 @@
 		<li><a href="contact.php">Contact</a></li>
 		<li class="deroulant"><a href="#">A Propos &ensp;</a>
 		<ul class="sous">
-			<li><a href="male.php">L'élevage</a></li>
-			<li><a href="femelle.php">Adoption</a></li>
-			<li><a href="autre_chat.php">Castration précoce</a></li>
+			<li><a href="elevage.php">L'élevage</a></li>
+			<li><a href="adoption.php">Adoption</a></li>
+			<li><a href="soins.php">Soins</a></li>
+			<li><a href="castration.php">Castration précoce</a></li>
 		</ul>
 		</li>
 	</ul>
